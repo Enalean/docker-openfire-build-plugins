@@ -4,6 +4,8 @@ For now, we only build Openfire core plugins and [Helga](https://community.ignit
 
 ## How to use
 
+-On your local machine:
+
     $> git clone https://github.com/Enalean/docker-openfire-build-plugins.git
     $> cd docker-openfire-build-plugins
     $> docker build --tag=openfire-build-plugins
@@ -18,6 +20,8 @@ Once they are built, you need to upgrade you version of openfire. First download
 https://www.igniterealtime.org/downloads/download-landing.jsp?file=openfire/openfire-3.10.0-1.i386.rpm
 
 Next, install it
+
+-On your Tuleap instance
 
     $> yum install openfire-3.10.0-1.i386.rpm
 
